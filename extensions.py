@@ -87,7 +87,7 @@ def process_message(message, userinfo):
             val_in = values_dict[message_list[0]]
             val_out = values_dict[message_list[1]]
             val_num = message_list[2]
-            if val_out.isnumeric():
+            if val_num.isnumeric():
                 crp_obj = CryptoCompare(val_in, val_out, val_num).send_answer()
             else:
                 crp_obj = ApiExeption('Упс... кажется вы ошиблись☹️\n'
