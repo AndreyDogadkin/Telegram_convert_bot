@@ -1,4 +1,4 @@
-TOKEN = '6056014818:AAFhKAZbWEhqtCKuyo6l-sQx2w_KYxtooA8'
+TOKEN = ''
 
 values_dict: dict[str, str] = {
     'евро': 'EUR',
