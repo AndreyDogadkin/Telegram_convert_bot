@@ -1,5 +1,3 @@
-TOKEN = ''
-
 values_dict: dict[str, str] = {
     'евро': 'EUR',
     'доллар': 'USD',

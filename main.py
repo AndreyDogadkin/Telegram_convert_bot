@@ -2,7 +2,8 @@ import logging
 from aiogram import Bot, Dispatcher, executor, types
 import keyboard as navig
 import extensions as ext
-from config import TOKEN, values_dict, START, HELP
+from config import values_dict, START, HELP
+from TOKEN import TOKEN
 
 logging.basicConfig(level=logging.INFO)
 
